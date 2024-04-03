@@ -47,4 +47,4 @@ jobs:
           context: .
           file: ./WebAPI_GitHub_Docker_New/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/dockerfordotnetapi:latest, ${{ secrets.DOCKERHUB_USERNAME }}/dockerfordotnetapi_new:${{ github.run_number }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/dockerfordotnetapi_new:latest, ${{ secrets.DOCKERHUB_USERNAME }}/dockerfordotnetapi_new:${{ github.run_number }}
