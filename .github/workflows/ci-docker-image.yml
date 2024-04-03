@@ -45,6 +45,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./WebAPI_GitHub_Docker_New/Dockerfile
+          file: ./WebApi_Docker_GitHub_New/Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/dockerfordotnetapi_new:latest, ${{ secrets.DOCKERHUB_USERNAME }}/dockerfordotnetapi_new:${{ github.run_number }}
