@@ -46,7 +46,7 @@ namespace WebAPI_Docker_GitHub_New.Controllers
 
         [HttpGet]
         [Route("GetWeatherForecast2")]
-        public IEnumerable<WeatherForecast> Get2()
+        public IEnumerable<WeatherForecast> Get3()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
