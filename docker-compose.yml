@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   webapi_docker_github_new:
-    image: ${DOCKER_REGISTRY-}webapidockergithubnew
+    image: emilasadov88420/test_compose:${version}
     build:
       context: .
       dockerfile: WebAPI_Docker_GitHub_New/Dockerfile
