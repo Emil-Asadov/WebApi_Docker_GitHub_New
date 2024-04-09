@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  webapi_docker_github_new:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5000:80"

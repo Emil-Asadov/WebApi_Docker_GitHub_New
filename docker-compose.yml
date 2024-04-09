@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  webapi_docker_github_new:
+    image: ${DOCKER_REGISTRY-}webapidockergithubnew
+    build:
+      context: .
+      dockerfile: WebAPI_Docker_GitHub_New/Dockerfile
